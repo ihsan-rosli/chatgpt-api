@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan serve:*)",
+      "Bash(php artisan make:migration:*)",
+      "Bash(php artisan:*)",
+      "Bash(php:*)",
+      "Bash(dir:*)",
+      "Bash(du:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git add:*)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
